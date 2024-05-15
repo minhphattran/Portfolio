@@ -28,7 +28,7 @@ function PersonalInformation(){
                         <LinkedInIcon style={{fontSize: '60px'}}/>
                         <InstagramIcon style={{fontSize: '60px'}}/>
                     </div>
-                    <Button variant="outlined">Download Resume</Button>
+                    <Button variant="outlined">Download My Resume</Button>
                     
                 </div>
             </div>
