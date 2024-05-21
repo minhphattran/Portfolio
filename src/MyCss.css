@@ -20,7 +20,7 @@ html{
 .Headline > h1{
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 1.5vw;
+    font-size: 1.5rem ;
     text-align: center;
     display: flex;
     align-items: center;
@@ -41,6 +41,7 @@ html{
 
 }
 .content{
+    flex-wrap: wrap;
     padding-top: 100px;
     display: flex;
     justify-content: center;
@@ -52,8 +53,8 @@ html{
 }
 
 .profile {
-    width: 20vw;
-    height: 20vw;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     border: 2px solid;
 }
@@ -66,18 +67,18 @@ html{
     padding-right: 200px; */
 }
 .info > p:nth-child(1){
-    font-size: 2vw;
+    font-size: 2rem;
     color: grey;
     
 }
 .info > p:nth-child(2){
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 3rem;
 }
 
 .info > p:nth-child(3){
     
-    font-size: 2vw;
+    font-size: 2rem;
     color: grey;
 }
 li :hover{
@@ -90,6 +91,7 @@ li :hover{
 }
 .education_content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap:15vw
@@ -97,7 +99,7 @@ li :hover{
 
 .education_pic{
     gap: 2rem;
-    max-width: 25vw;
+    max-width: 25rem;
     display: flex;
     flex-direction: column;
 }
@@ -110,7 +112,7 @@ li :hover{
     padding-left: 10rem;
     display: flex;
     flex-direction: column;
-    font-size: 1.25vw;
+    font-size: 1.25rem;
     gap: 2rem;
     font-weight: normal;
     padding-inline-start: 0px;

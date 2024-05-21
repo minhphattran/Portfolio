@@ -25,7 +25,7 @@ function PersonalInformation(){
     return (
         <div>
             <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width:'100%', textAlign:'center' }}>
-            <h1 style={{margin:'20px', fontSize:'3vw'}}>Welcome to My Portfolio</h1>
+            <h1 style={{margin:'20px', fontSize:'3rem'}}>Welcome to My Portfolio</h1>
             <div className='Headline'> 
                 <h1 onClick={() => handleClick('#education')}>Education</h1>
                 <h1 onClick={() => handleClick('#project')}>Project</h1>
@@ -40,9 +40,9 @@ function PersonalInformation(){
                     <p>Software Developer</p>
                     
                         <ul style={{paddingInlineStart:"0",display:'flex', justifyContent:'space-around',paddingTop:'30px', paddingBottom:'60px',flex:"row", listStyle:"none",}}>
-                            <li className='git_icon' onClick={() => handleLink('https://github.com/minhphattran')}><GitHubIcon style={{fontSize: '3vw'}}/></li>
-                            <li className='linkedin_icon' onClick={() => handleLink('https://www.linkedin.com/in/minh-phat-tran-99b776260/')}><LinkedInIcon style={{fontSize: '3vw'}}/></li>
-                            <li className='instagram_icon' onClick={() => handleLink('https://www.instagram.com/clave___/')}><InstagramIcon style={{fontSize: '3vw'}}/></li>
+                            <li className='git_icon' onClick={() => handleLink('https://github.com/minhphattran')}><GitHubIcon style={{fontSize: '3rem'}}/></li>
+                            <li className='linkedin_icon' onClick={() => handleLink('https://www.linkedin.com/in/minh-phat-tran-99b776260/')}><LinkedInIcon style={{fontSize: '3rem'}}/></li>
+                            <li className='instagram_icon' onClick={() => handleLink('https://www.instagram.com/clave___/')}><InstagramIcon style={{fontSize: '3rem'}}/></li>
                         </ul>
                         
                     <a href='./myFile/resume.pdf' download='resume.pdf'><Button variant="outlined" >Download My Resume</Button></a>
@@ -53,15 +53,15 @@ function PersonalInformation(){
         </div>
         <section id='education'>
             
-            <h1 style={{paddingTop:'2rem',fontSize:'3vw'}}><SchoolIcon style={{fontSize:'3vw'}}></SchoolIcon> Graduated May, 2024  <SchoolIcon style={{fontSize:'3vw'}}></SchoolIcon></h1>
-            <h1 style={{paddingBottom:'2rem', fontWeight:'normal', fontSize:'2.75vw'}}>GPA: 3.75</h1>
+            <h1 style={{paddingTop:'2rem',fontSize:'3rem'}}><SchoolIcon style={{fontSize:'3vw'}}></SchoolIcon> Graduated May, 2024  <SchoolIcon style={{fontSize:'3vw'}}></SchoolIcon></h1>
+            <h1 style={{paddingBottom:'2rem', fontWeight:'normal', fontSize:'2.7rem'}}>GPA: 3.75</h1>
             <div className='education_content'>
                 <div className='education_pic'>
                     <img className='campus' src={campus} alt="Campus Picture" />
                     <img className='gmu_logo' src={gmu_logo} alt="GMU LOGO" />
                 </div>
                 <div>
-                    <p style={{fontSize:'2vw', paddingBottom:'2rem', fontWeight:'bold'}}>Related Courses</p>
+                    <p style={{fontSize:'2rem', paddingBottom:'2rem', fontWeight:'bold'}}>Related Courses</p>
                     <ul className='courses'>
                         <li>  Data Structure & Algorithms</li>
                         <li> Software Engineer</li>
