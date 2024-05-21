@@ -63,15 +63,15 @@ function PersonalInformation(){
                 <div>
                     <p style={{fontSize:'2vw', paddingBottom:'2rem', fontWeight:'bold'}}>Related Courses</p>
                     <ul className='courses'>
-                        <li> <RemoveIcon></RemoveIcon> Data Structure & Algorithms</li>
-                        <li> <RemoveIcon></RemoveIcon>Software Engineer</li>
-                        <li> <RemoveIcon></RemoveIcon>Database Concepts</li>
-                        <li> <RemoveIcon></RemoveIcon>Web App Development</li>
-                        <li> <RemoveIcon></RemoveIcon>Mobile App Development</li>
-                        <li> <RemoveIcon></RemoveIcon>Object-Oriented Programming </li>
-                        <li> <RemoveIcon></RemoveIcon>Low-Level Programming </li>
-                        <li> <RemoveIcon></RemoveIcon>Operating Systems </li>
-                        <li> <RemoveIcon></RemoveIcon>Software Testing & Maintenance</li>
+                        <li>  Data Structure & Algorithms</li>
+                        <li> Software Engineer</li>
+                        <li> Database Concepts</li>
+                        <li> Web App Development</li>
+                        <li> Mobile App Development</li>
+                        <li> Object-Oriented Programming </li>
+                        <li> Low-Level Programming </li>
+                        <li> Operating Systems </li>
+                        <li> Software Testing & Maintenance</li>
                     </ul>
                 </div>
             </div>
