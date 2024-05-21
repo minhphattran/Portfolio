@@ -53,7 +53,7 @@ function PersonalInformation(){
         </div>
         <section id='education'>
             
-            <h1 style={{paddingTop:'2rem',fontSize:'3rem'}}><SchoolIcon style={{fontSize:'3vw'}}></SchoolIcon> Graduated May, 2024  <SchoolIcon style={{fontSize:'3vw'}}></SchoolIcon></h1>
+            <h1 style={{paddingTop:'2rem',fontSize:'3rem'}}><SchoolIcon style={{fontSize:'3rem'}}></SchoolIcon> Graduated May, 2024  <SchoolIcon style={{fontSize:'3rem'}}></SchoolIcon></h1>
             <h1 style={{paddingBottom:'2rem', fontWeight:'normal', fontSize:'2.7rem'}}>GPA: 3.75</h1>
             <div className='education_content'>
                 <div className='education_pic'>
