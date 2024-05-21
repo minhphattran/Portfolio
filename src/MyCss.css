@@ -39,7 +39,7 @@
 
 }
 .content{
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +78,6 @@
     font-size: 2vw;
     color: grey;
 }
-svg :hover{
+li :hover{
     cursor: pointer;
 }
