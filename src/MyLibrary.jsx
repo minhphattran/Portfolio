@@ -8,20 +8,20 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Button from '@mui/material/Button';
 import SchoolIcon from '@mui/icons-material/School';
-import RemoveIcon from '@mui/icons-material/Remove';
 import resume from './myFile/resume.pdf';
 
 
 function PersonalInformation(){
     const handleClick = (message) => {
         location.href=message;
+        window.href=resume;
     };
     const handleLink = (link) => {
         window.open(link);
+        window.open(resume);
     }
-    const handleDownload = (link) =>{
 
-    }
+    
     return (
         <div>
             <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width:'100%', textAlign:'center' }}>
@@ -45,7 +45,7 @@ function PersonalInformation(){
                             <li className='instagram_icon' onClick={() => handleLink('https://www.instagram.com/clave___/')}><InstagramIcon style={{fontSize: '3rem'}}/></li>
                         </ul>
                         
-                    <a href='./myFile/resume.pdf' download='resume.pdf'><Button variant="outlined" >Download My Resume</Button></a>
+                    <a href={resume} download='resume.pdf'><Button variant="outlined" >Download My Resume</Button></a>
                     
                     
                 </div>
