@@ -14,11 +14,9 @@ import resume from './myFile/resume.pdf';
 function PersonalInformation(){
     const handleClick = (message) => {
         location.href=message;
-        window.href=resume;
     };
     const handleLink = (link) => {
         window.open(link);
-        window.open(resume);
     }
 
     
