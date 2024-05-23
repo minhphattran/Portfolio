@@ -124,7 +124,7 @@ section {
     gap: 1rem;
     display: flex;
     flex-direction: row;
-    width: 20rem;
+    max-width: 20rem;
     height: 30rem;
     overflow: auto;
 }
@@ -136,8 +136,8 @@ section {
 }
 
 .checker_info{
-    width: 40rem;
-    height: 30rem;
+    max-width: 40rem;
+    
     
 }
 
@@ -151,6 +151,7 @@ section {
 }
 
 .each_project{
+    width: 100%; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -171,14 +172,14 @@ section {
     gap: 1rem;
     display: flex;
     flex-direction: row;
-    width: 40rem;
+    max-width: 40rem;
     height: 30rem;
     overflow: auto;
     align-items: center;
 }
 
 .radio_pic img{
-   width: 35rem;
+   max-width: 35rem;
    height: fit-content;
 }
 
