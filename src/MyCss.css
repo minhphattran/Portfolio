@@ -8,7 +8,6 @@ html{
 }
 .Headline{
     display: flex;
-    width: 100vw;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -85,10 +84,7 @@ li :hover{
     cursor: pointer;
 }
 
-#education {
-    min-height: 100vh;
-    text-align: center;
-}
+
 .education_content{
     display: flex;
     flex-wrap: wrap;
@@ -118,3 +114,88 @@ li :hover{
     padding-inline-start: 0px;
     
 }
+
+section {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.checker_pic{
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    height: 30rem;
+    overflow: auto;
+}
+.checker1{
+    padding-left: 3rem;
+}
+.checker4{
+    padding-right: 3rem;
+}
+
+.checker_info{
+    width: 40rem;
+    height: 30rem;
+    
+}
+
+.project_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1vw
+    
+}
+
+.each_project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    
+}
+
+
+.tracker1{
+    padding-left: 3rem;
+}
+.tracker3{
+    padding-right: 3rem;
+}
+
+.radio_pic{
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    height: 30rem;
+    overflow: auto;
+    align-items: center;
+}
+
+.radio_pic img{
+   width: 35rem;
+   height: fit-content;
+}
+
+.radio1{
+    padding-left: 3rem;
+}
+.radio3{
+    padding-right: 3rem;
+}
+
+form{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
