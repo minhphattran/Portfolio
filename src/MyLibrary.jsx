@@ -40,7 +40,7 @@ function PersonalInformation(){
     function sendEmail(e) {
         e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
     
-        emailjs.sendForm('service_qkw7wf3', 'template_3fuceza', e.target, 'ISCJmM5V8Xe3tW26Z')
+        emailjs.sendForm('service_qkw7wf3', 'template_j4qbydg', e.target, 'ISCJmM5V8Xe3tW26Z')
           .then((result) => {
               window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
           }, (error) => {
