@@ -122,7 +122,7 @@ function PersonalInformation(){
                             <img className='checker3' src={checker3} alt="Project Picture" />
                             <img className='checker4' src={checker4} alt="Project Picture" />
                         </div>
-                        <div className='checker_info' style={{minWidth:'90vw'}}>
+                        <div className='checker_info' >
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Overview:</p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This is checker-like game. The rule is simple. Whoever has 3 connected tokens first is the winner!  </p>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Description:</p>
