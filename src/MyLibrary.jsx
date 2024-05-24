@@ -124,7 +124,7 @@ function PersonalInformation(){
                         </div>
                         <div className='checker_info' >
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Overview:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This is checker-like game. The rule is simple. Whoever has 3 connected tokens first is the winner!  </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This is a checker-like game. The rule is simple. Whoever has 3 connected tokens first is the winner!  </p>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Description:</p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend - XML is used to create intuative user interface </p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Java is used to handle the logic of the game such as deciding whose turn, who is the winner, or the game is drawn. In addition, realtime databe Firebase is used in the role of connecting players from different devices through WIFI  </p>
