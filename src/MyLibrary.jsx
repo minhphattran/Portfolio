@@ -151,6 +151,9 @@ function PersonalInformation(){
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - SQLite is implemented to retain the data of user preventing data loss when closing the app.</p>
                         </div>
                     </div>
+
+
+                    <h1 style={{paddingBottom:'2rem', fontWeight:'normal', fontSize:'2rem',width:'100%'}}>Radio Web</h1>
                     <div className='each_project'>
                         <div className='radio_pic'>
                             <img className='radio1' src={radio1} alt="Project Picture" />
@@ -160,27 +163,17 @@ function PersonalInformation(){
                         </div>
                         <div className='checker_info'>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Overview:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This app allows users to see what workouts they plan and helps them keep track when doing them.   </p>
-                            <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Description:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend: XML is used to create intuative user interface </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Java is used to implement the function of each button of the app. User can use the add button to add exercise, short press on each exercise to edit, long press to delete exercise, start button to start a workout session. </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - SQLite is implemented to retain the data of user preventing data loss when closing the app.</p>
-                        </div>
-                    </div>
-
-                    {/* <h1 style={{paddingBottom:'2rem', fontWeight:'normal', fontSize:'2rem',width:'100%'}}>Radio Web</h1>
-
-                    <div className='each_project'>
-                        
-                        <div className='checker_info'>
-                            <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Overview:</p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This website provide audio services. User can see lists of song and clicks on songs they want to listen to. User can also give feedback to the server by liking or disliking the songs. Search function is also implemented. User profile can be edited by themselves.   </p>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Description:</p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend: HTML and CSS is used to construct the interface with style so users can intuitively use the website. </p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Vanilla JavaScript and EJS are used to handle the logic of each button's function, search function, and update the database.  </p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - MongoDB is used to stored user information, songs' information, and playlists' information.</p>
                         </div>
-                    </div> */}
+                    </div>
+
+                    
+
+                    
                    
                     
                      
@@ -195,13 +188,12 @@ function PersonalInformation(){
                     
                     
                         <label>Your Message </label>
-                        <textarea style={{width:'40rem', height:'20rem',minWidth:'90vw'}} name="html_message" />
+                        <textarea style={{ width:'90vw', minHeight:'20rem', maxWidth:'40rem'}} name="html_message" />
                     
                 
                     <input style={{width:'10rem', height:'3rem'}} type="submit" value="Send" />
                 </form>
-                {/* <Button variant="contained" >Send</Button> 
-             */}
+               
             
             
             </section>
