@@ -70,7 +70,7 @@ function PersonalInformation(){
                         <ul style={{paddingInlineStart:"0",display:'flex', justifyContent:'space-around',paddingTop:'30px', paddingBottom:'60px',flex:"row", listStyle:"none",}}>
                             <li className='git_icon' onClick={() => handleLink('https://github.com/minhphattran')}><GitHubIcon style={{fontSize: '3rem'}}/></li>
                             <li className='linkedin_icon' onClick={() => handleLink('https://www.linkedin.com/in/minh-phat-tran-99b776260/')}><LinkedInIcon style={{fontSize: '3rem'}}/></li>
-                            <li className='instagram_icon' onClick={() => handleLink('https://www.instagram.com/clave___/')}><InstagramIcon style={{fontSize: '3rem'}}/></li>
+                            
                         </ul>
                         
                     <a href={resume} download='resume.pdf'><Button variant="outlined" >Download My Resume</Button></a>
@@ -127,9 +127,9 @@ function PersonalInformation(){
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Overview:</p>
                             <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This is a checker-like game. The rule is simple. Whoever has 3 connected tokens first is the winner!  </p>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Description:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend - XML is used to create intuative user interface </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Java is used to handle the logic of the game such as deciding whose turn, who is the winner, or the game is drawn. In addition, realtime databe Firebase is used in the role of connecting players from different devices through WIFI  </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - Realtime databe ,Firebase, is used in the role that connecting players from different devices through WIFI. Players obtain the moves of the oppents from the database</p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend - XML is used to create an intuitive user interface </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Java is used to handle the logic of the game such as deciding whose turn is, who the winner is, or if the game is drawn. In addition, the real-time database Firebase is used in the role of connecting players from different devices through WIFI  </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - A real-time database, Firebase, is used for the role that connecting players from different devices through WIFI. Players obtain the moves of the opponent from the database</p>
 
                         </div>
                     </div>
@@ -145,11 +145,11 @@ function PersonalInformation(){
                         </div>
                         <div className='checker_info'>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Overview:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This app allows users to see what workouts they plan and helps them keep track when doing them.   </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This app allows users to see what workouts they plan and helps them keep track of when doing them.  </p>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Description:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend: XML is used to create intuative user interface </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Java is used to implement the function of each button of the app. User can use the add button to add exercise, short press on each exercise to edit, long press to delete exercise, start button to start a workout session. </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - SQLite is implemented to retain the data of user preventing data loss when closing the app.</p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend: XML is used to create an intuitive user interface </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Java is used to implement the function of each button of the app. Users can use the add button to add an exercise, a short press on each exercise to edit, a long press to delete an exercise, and the start button to start a workout session </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - SQLite is implemented to retain the data of the user preventing data loss when closing the app</p>
                         </div>
                     </div>
 
@@ -164,11 +164,11 @@ function PersonalInformation(){
                         </div>
                         <div className='checker_info'>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Overview:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This website provide audio services. User can see lists of song and clicks on songs they want to listen to. User can also give feedback to the server by liking or disliking the songs. Search function is also implemented. User profile can be edited by themselves.   </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> This website provides audio services. Users can see lists of songs and click on songs they want to listen to. Users can also give feedback to the server by liking or disliking the songs. The search function is also implemented. User profiles can be edited by themselves.   </p>
                             <p style={{fontSize:'1.5rem', fontWeight:'bold',textAlign:'left'}}>Description:</p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend: HTML and CSS is used to construct the interface with style so users can intuitively use the website. </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Vanilla JavaScript and EJS are used to handle the logic of each button's function, search function, and update the database.  </p>
-                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - MongoDB is used to stored user information, songs' information, and playlists' information.</p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Frontend: HTML and CSS are used to construct the interface with style so users can intuitively use the website </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Backend - Vanilla JavaScript and EJS are used to handle the logic of each button's function, search function, and update the database  </p>
+                            <p style={{fontSize:'1.3rem', fontWeight:'normal',textAlign:'left', lineHeight:'1'}}> Database - MongoDB is used to store user information, song information, and playlist information</p>
                         </div>
                     </div>
 
