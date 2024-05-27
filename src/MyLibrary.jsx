@@ -1,6 +1,6 @@
 import './MyCss.css'
 import React from 'react';
-import profilePicture from './picture/polo.jpg'
+import profilePicture from './picture/suit.jpg'
 import campus from './picture/campus.jpg'
 import gmu_logo from './picture/gmu_logo.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
