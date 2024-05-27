@@ -1,6 +1,6 @@
 import './MyCss.css'
 import React from 'react';
-import profilePicture from './picture/mrFresh.jpg'
+import profilePicture from './picture/polo.jpg'
 import campus from './picture/campus.jpg'
 import gmu_logo from './picture/gmu_logo.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -21,6 +21,7 @@ import radio2 from './picture/radio2.png'
 import radio3 from './picture/radio3.png'
 import EmailIcon from '@mui/icons-material/Email';
 import emailjs from 'emailjs-com';
+
 
 
 
